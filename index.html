@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md Taquie Arif | Web Designer, WordPress & Frontend Developer</title>
+    <meta name="description" content="Portfolio of Md Taquie Arif - Freelance Website Designer, WordPress Developer, and Frontend Engineer in Kolkata.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Parallax Background Neon Orbs -->
+    <div class="parallax-bg">
+        <div class="neon-orb orb-1" data-speed="0.25"></div>
+        <div class="neon-orb orb-2" data-speed="-0.18"></div>
+        <div class="neon-orb orb-3" data-speed="0.12"></div>
+    </div>
+
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress" id="scroll-progress"></div>
+
+    <!-- Navbar -->
+    <header class="header" id="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">Taquie<span>.dev</span></a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#projects" class="nav-link">Projects (6)</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#estimator" class="nav-link">Cost Calculator</a>
+                <a href="#skills" class="nav-link">Tech Stack</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="https://wa.me/918910687080" target="_blank" class="btn btn-primary btn-sm">
+                    <i class="fa-brands fa-whatsapp"></i> Hire Me
+                </a>
+                <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container hero-container">
+            
+            <!-- Left Content -->
+            <div class="hero-content reveal-left">
+                <div class="status-badge">
+                    <span class="pulse-dot"></span> Available for Freelance Projects & Full-Time Roles
+                </div>
+                <h1>I Build Fast, High-Converting <span>Websites & Online Stores</span> That Grow Businesses.</h1>
+                <p class="hero-subtext">
+                    Hi, I'm <strong>Md Taquie Arif</strong> — a Website Designer, WordPress Specialist & Frontend Developer from Kolkata. I combine clean custom code with powerful e-commerce systems to turn visitors into paying customers.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Explore 6 Live Projects <i class="fa-solid fa-code"></i></a>
+                    <a href="#estimator" class="btn btn-outline">Calculate Website Cost <i class="fa-solid fa-calculator"></i></a>
+                </div>
+
+                <!-- Trust Metrics -->
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <h3>95+</h3>
+                        <p>PageSpeed Score</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>100%</h3>
+                        <p>Mobile Responsive</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>SEO</h3>
+                        <p>Ready Architecture</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>24/7</h3>
+                        <p>Support & Care</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Profile Image + Neon Frame -->
+            <div class="hero-visual reveal-right" id="hero-parallax">
+                <div class="profile-showcase">
+                    <div class="neon-ring"></div>
+                    <div class="profile-img-box">
+                        <img src="MDTAQUIE IAMGE.png" onerror="this.src='profile.png'" alt="Md Taquie Arif - Web & WordPress Developer" class="profile-img">
+                    </div>
+
+                    <!-- Floating Neon Badges -->
+                    <div class="floating-badge badge-top">
+                        <i class="fa-brands fa-wordpress"></i> WordPress & WooCommerce Pro
+                    </div>
+                    <div class="floating-badge badge-bottom">
+                        <i class="fa-solid fa-bolt"></i> Custom HTML, CSS & JS
+                    </div>
+
+                    <!-- Mini Developer Terminal Card -->
+                    <div class="mini-code-bar">
+                        <span class="dot green"></span>
+                        <code>status: "Building High-ROI Websites"</code>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Featured Projects Section (6 Projects in 3x2 Grid) -->
+    <section class="section" id="projects">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <span class="section-tag">PORTFOLIO & CASE STUDIES</span>
+                <h2>6 Industry-Ready Projects Built for Speed & Sales</h2>
+                <p>Explore my live production demos ranging from custom-coded frontend platforms to full-scale WordPress & WooCommerce systems.</p>
+            </div>
+
+            <!-- Filter Buttons -->
+            <div class="filter-tabs reveal-up">
+                <button class="filter-btn active" data-filter="all">All Projects (6)</button>
+                <button class="filter-btn" data-filter="code">Custom Code (HTML/CSS/JS)</button>
+                <button class="filter-btn" data-filter="wordpress">WordPress & WooCommerce</button>
+            </div>
+
+            <!-- 6 Projects Grid (3 Per Row) -->
+            <div class="projects-grid">
+                
+                <!-- Project 1: Hosting / SaaS Landing Page -->
+                <article class="project-card reveal-up" data-category="code">
+                    <div class="project-banner banner-1">
+                        <span class="project-type">01 • Custom Frontend Code</span>
+                        <i class="fa-solid fa-server project-icon"></i>
+                    </div>
+                    <div class="project-body">
+                        <h3>CloudHost Pro — Hosting & SaaS Platform</h3>
+                        <p class="project-desc">
+                            <strong>Goal:</strong> Ultra-fast SaaS hosting platform featuring floating hero animations, interactive pricing toggle, FAQ accordion, and auto-looping testimonial sliders.
+                        </p>
+                        <div class="tech-tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>GitHub & Vercel</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#contact" class="btn btn-primary btn-sm">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="#contact" class="btn btn-outline btn-sm"><i class="fa-brands fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 2: Luxury Interior & Furniture Brand -->
+                <article class="project-card reveal-up" data-category="wordpress">
+                    <div class="project-banner banner-2">
+                        <span class="project-type">02 • B2B + Retail + Interiors</span>
+                        <i class="fa-solid fa-couch project-icon"></i>
+                    </div>
+                    <div class="project-body">
+                        <h3>LuxeSpaces — Luxury Interior & Furniture Brand</h3>
+                        <p class="project-desc">
+                            <strong>Goal:</strong> Unify bulk manufacturing, retail furniture catalog, and interior design services with a live 2BHK/3BHK cost estimator and WhatsApp booking.
+                        </p>
+                        <div class="tech-tags">
+                            <span>WordPress</span>
+                            <span>Elementor</span>
+                            <span>WooCommerce</span>
+                            <span>Cost Calculator</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#estimator" class="btn btn-primary btn-sm">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="#contact" class="btn btn-outline btn-sm">Case Study</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 3: Full E-Commerce Store (D2C) -->
+                <article class="project-card reveal-up" data-category="wordpress">
+                    <div class="project-banner banner-3">
+                        <span class="project-type">03 • Full E-Commerce (D2C)</span>
+                        <i class="fa-solid fa-bag-shopping project-icon"></i>
+                    </div>
+                    <div class="project-body">
+                        <h3>UrbanVogue — D2C Retail E-Commerce Store</h3>
+                        <p class="project-desc">
+                            <strong>Goal:</strong> High-converting online store with dynamic size/color variations, slide-out cart drawer, Razorpay UPI/Card checkout, and WhatsApp order sync.
+                        </p>
+                        <div class="tech-tags">
+                            <span>WooCommerce</span>
+                            <span>Razorpay UPI</span>
+                            <span>Variable Products</span>
+                            <span>Speed 95+</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#contact" class="btn btn-primary btn-sm">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="#contact" class="btn btn-outline btn-sm">Case Study</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 4: Restaurant & Party Catering Portal -->
+                <article class="project-card reveal-up" data-category="wordpress">
+                    <div class="project-banner banner-4">
+                        <span class="project-type">04 • Food & Party Catering</span>
+                        <i class="fa-solid fa-utensils project-icon"></i>
+                    </div>
+                    <div class="project-body">
+                        <h3>Royal Biryani & Party Catering Portal</h3>
+                        <p class="project-desc">
+                            <strong>Goal:</strong> Direct online food ordering and bulk party catering calculator that saves 30% aggregator commissions and sends instant orders to WhatsApp.
+                        </p>
+                        <div class="tech-tags">
+                            <span>WordPress</span>
+                            <span>Bulk Order Calculator</span>
+                            <span>WhatsApp API</span>
+                            <span>Local SEO</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#contact" class="btn btn-primary btn-sm">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="#contact" class="btn btn-outline btn-sm">Case Study</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 5 (Suggested High-Ticket Niche): Luxury Real Estate Portal -->
+                <article class="project-card reveal-up" data-category="wordpress">
+                    <div class="project-banner banner-5">
+                        <span class="project-type">05 • Real Estate & Builders</span>
+                        <i class="fa-solid fa-building-columns project-icon"></i>
+                    </div>
+                    <div class="project-body">
+                        <h3>PrimeVista — Real Estate & Property Portal</h3>
+                        <p class="project-desc">
+                            <strong>Goal:</strong> Lead-generation portal for property developers and brokers featuring smart location/budget filters, floor-plan downloads, and site-visit booking.
+                        </p>
+                        <div class="tech-tags">
+                            <span>WordPress</span>
+                            <span>Property Filter</span>
+                            <span>EMI Calculator</span>
+                            <span>Lead CRM</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#contact" class="btn btn-primary btn-sm">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="#contact" class="btn btn-outline btn-sm">Case Study</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 6 (Suggested High-Demand Niche): Healthcare & Clinic Booking -->
+                <article class="project-card reveal-up" data-category="code">
+                    <div class="project-banner banner-6">
+                        <span class="project-type">06 • Healthcare & Booking</span>
+                        <i class="fa-solid fa-stethoscope project-icon"></i>
+                    </div>
+                    <div class="project-body">
+                        <h3>MediCare Plus — Clinic & Doctor Booking</h3>
+                        <p class="project-desc">
+                            <strong>Goal:</strong> Modern healthcare & diagnostic clinic portal with doctor department filtering, time-slot appointment booking, and automated WhatsApp reminders.
+                        </p>
+                        <div class="tech-tags">
+                            <span>HTML/CSS/JS</span>
+                            <span>WordPress Booking</span>
+                            <span>Time-Slot Engine</span>
+                            <span>Mobile First</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#contact" class="btn btn-primary btn-sm">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="#contact" class="btn btn-outline btn-sm">Case Study</a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section section-alt" id="services">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <span class="section-tag">SOLUTIONS FOR BUSINESSES</span>
+                <h2>How I Help Your Business Dominate Online</h2>
+                <p>I don't just deliver templates—I build complete digital sales engines tailored to your industry.</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card reveal-up">
+                    <div class="service-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                    <h3>Custom Business Websites</h3>
+                    <p>High-authority websites for manufacturers, interior designers, real estate builders, and clinics engineered to generate daily leads.</p>
+                    <ul class="service-list">
+                        <li><i class="fa-solid fa-check"></i> Mobile-First Custom UI Design</li>
+                        <li><i class="fa-solid fa-check"></i> Interactive Quote & Cost Calculators</li>
+                        <li><i class="fa-solid fa-check"></i> Direct WhatsApp Lead Integration</li>
+                    </ul>
+                </div>
+
+                <div class="service-card featured-service reveal-up">
+                    <div class="popular-tag">Most Requested</div>
+                    <div class="service-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                    <h3>WooCommerce Online Stores</h3>
+                    <p>Complete e-commerce ecosystems with inventory management, product variations, and automated UPI/Card/EMI checkout.</p>
+                    <ul class="service-list">
+                        <li><i class="fa-solid fa-check"></i> Zero Monthly Platform Rent</li>
+                        <li><i class="fa-solid fa-check"></i> Razorpay / PhonePe UPI Integration</li>
+                        <li><i class="fa-solid fa-check"></i> Easy Video Training for Your Team</li>
+                    </ul>
+                </div>
+
+                <div class="service-card reveal-up">
+                    <div class="service-icon"><i class="fa-solid fa-gauge-high"></i></div>
+                    <h3>Custom Code & Speed Optimization</h3>
+                    <p>Pixel-perfect HTML/CSS/JS frontend development, landing pages, and speed optimization for slow websites.</p>
+                    <ul class="service-list">
+                        <li><i class="fa-solid fa-check"></i> 90+ Google PageSpeed Score</li>
+                        <li><i class="fa-solid fa-check"></i> Clean GitHub & Vercel Deployment</li>
+                        <li><i class="fa-solid fa-check"></i> Technical SEO & Security Firewall</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Project Price Estimator -->
+    <section class="section" id="estimator">
+        <div class="container">
+            <div class="estimator-box reveal-up">
+                <div class="estimator-info">
+                    <span class="section-tag">INSTANT PROJECT CALCULATOR</span>
+                    <h2>Get an Instant Website Cost Estimate</h2>
+                    <p>Planning a new website? Select your requirements below to see a transparent ballpark investment and send the details straight to my WhatsApp.</p>
+                    
+                    <div class="included-perks">
+                        <h4>Included in Every Project:</h4>
+                        <ul>
+                            <li><i class="fa-solid fa-shield-halved"></i> Free SSL Security Setup</li>
+                            <li><i class="fa-solid fa-mobile-screen"></i> 100% Mobile & Tablet Responsive</li>
+                            <li><i class="fa-brands fa-whatsapp"></i> WhatsApp Chat Integration</li>
+                            <li><i class="fa-solid fa-video"></i> Recorded Video Handover Training</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="estimator-controls">
+                    <div class="form-group">
+                        <label for="project-type">1. Select Website Type</label>
+                        <select id="project-type" class="form-control">
+                            <option value="12000">High-Converting Landing Page (₹12,000)</option>
+                            <option value="22000" selected>Business / Interior / Service Website (₹22,000)</option>
+                            <option value="35000">Full E-Commerce / WooCommerce Store (₹35,000)</option>
+                            <option value="50000">Multi-Vertical Custom Portal (B2B + Retail) (₹50,000)</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="page-count">2. Number of Pages / Templates: <strong id="page-count-val">5 Pages</strong></label>
+                        <input type="range" id="page-count" min="1" max="20" value="5" class="range-slider">
+                    </div>
+
+                    <div class="form-group">
+                        <label>3. Power Add-ons (Optional)</label>
+                        <div class="checkbox-group">
+                            <label class="checkbox-item">
+                                <input type="checkbox" class="addon-check" value="4000" data-name="Domain + Cloud Hosting Setup">
+                                <span>Domain + 1 Yr Fast Hosting Setup (+₹4,000)</span>
+                            </label>
+                            <label class="checkbox-item">
+                                <input type="checkbox" class="addon-check" value="3500" data-name="Interactive Cost Calculator">
+                                <span>Custom Lead / Price Calculator (+₹3,500)</span>
+                            </label>
+                            <label class="checkbox-item">
+                                <input type="checkbox" class="addon-check" value="3000" data-name="Payment Gateway & GST">
+                                <span>Razorpay Payment Gateway + GST (+₹3,000)</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="estimate-result">
+                        <div>
+                            <span class="est-label">Estimated Investment</span>
+                            <h3 id="total-price">₹25,200</h3>
+                        </div>
+                        <button type="button" id="send-estimate-btn" class="btn btn-primary">
+                            Lock Quote on WhatsApp <i class="fa-brands fa-whatsapp"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack & Skills -->
+    <section class="section section-alt" id="skills">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <span class="section-tag">TECHNICAL CAPABILITIES</span>
+                <h2>My Development Stack & Workflow</h2>
+                <p>Built for both business reliability and modern engineering standards.</p>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-box reveal-up">
+                    <h3><i class="fa-solid fa-code"></i> Frontend & Programming</h3>
+                    <div class="skill-pills">
+                        <span>HTML5</span>
+                        <span>CSS3 (Flexbox & Grid)</span>
+                        <span>JavaScript (ES6+)</span>
+                        <span>DOM Manipulation</span>
+                        <span>React.js</span>
+                        <span>Node.js</span>
+                    </div>
+                </div>
+
+                <div class="skill-box reveal-up">
+                    <h3><i class="fa-brands fa-wordpress"></i> CMS & E-Commerce</h3>
+                    <div class="skill-pills">
+                        <span>WordPress Core</span>
+                        <span>WooCommerce</span>
+                        <span>Elementor Builder</span>
+                        <span>Astra / Kadence</span>
+                        <span>Razorpay / UPI</span>
+                        <span>Speed Optimization</span>
+                    </div>
+                </div>
+
+                <div class="skill-box reveal-up">
+                    <h3><i class="fa-solid fa-screwdriver-wrench"></i> Tools & Deployment</h3>
+                    <div class="skill-pills">
+                        <span>Visual Studio Code</span>
+                        <span>Git & GitHub</span>
+                        <span>Vercel Deployment</span>
+                        <span>Figma UI Design</span>
+                        <span>Hostinger / cPanel</span>
+                        <span>Technical SEO</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <div class="container contact-container">
+            <div class="contact-info reveal-left">
+                <span class="section-tag">LET'S WORK TOGETHER</span>
+                <h2>Ready to Launch Your Website or Hire a Dedicated Developer?</h2>
+                <p>Whether you want to grow your business sales online or need a skilled Frontend & WordPress developer for your team, let's connect today.</p>
+
+                <div class="contact-methods">
+                    <div class="method-item">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <div>
+                            <h4>WhatsApp Number</h4>
+                            <p><a href="https://wa.me/918910687080" target="_blank">+91 89106 87080</a></p>
+                        </div>
+                    </div>
+                    <div class="method-item">
+                        <i class="fa-solid fa-phone-volume"></i>
+                        <div>
+                            <h4>Direct Calling</h4>
+                            <p><a href="tel:+918981317909">+91 89106 87080</a></p>
+                        </div>
+                    </div>
+                    <div class="method-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <div>
+                            <h4>Email Address</h4>
+                            <p><a href="mailto:arifmdtaquie@gmail.com">arifmdtaquie@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="method-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Kolkata, West Bengal, India (Available Worldwide)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <form class="contact-form reveal-right" id="contact-form">
+                <h3>Send a Direct Message</h3>
+                <div class="form-group">
+                    <label for="client-name">Your Name</label>
+                    <input type="text" id="client-name" class="form-control" placeholder="e.g. Rajesh Sharma" required>
+                </div>
+                <div class="form-group">
+                    <label for="client-role">Inquiry Type</label>
+                    <select id="client-role" class="form-control">
+                        <option value="Freelance Website Project">I want a Website / Online Store built</option>
+                        <option value="Job / Agency Hiring">I am hiring a Developer (Job / Contract)</option>
+                        <option value="Website Redesign / Speed">I want to upgrade my existing site</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="client-msg">Project or Role Details</label>
+                    <textarea id="client-msg" rows="4" class="form-control" placeholder="Tell me briefly about your business, timeline, or requirement..." required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">
+                    Send Message on WhatsApp <i class="fa-brands fa-whatsapp"></i>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <p>© <span id="year"></span> <strong>Md Taquie Arif</strong>. Crafted with Slytherin precision in Kolkata.</p>
+            <div class="social-links">
+                <a href="mailto:arifmdtaquie@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                <a href="tel:+918910687080" aria-label="Call"><i class="fa-solid fa-phone"></i></a>
+                <a href="https://wa.me/918910687080" target="_blank" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Quick Button -->
+    <a href="https://wa.me/918910687080" target="_blank" class="floating-wa" aria-label="Chat on WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
